@@ -14,10 +14,12 @@ class Division {
     }
     display(){
 
+      var pos = this.body.position;
+
       push();
       rectMode(CENTER);
       fill("white");
-      rect(0, 0, this.width, this.height);
+      rect(pos.x, pos.y, this.width, this.height);
       pop();
 
     }

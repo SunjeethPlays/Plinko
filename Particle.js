@@ -4,7 +4,7 @@ class Particle {
 
         var options = {
             density:1,
-            friction:0.5
+            friction:0.001
         }
   
         this.radius = radius;
